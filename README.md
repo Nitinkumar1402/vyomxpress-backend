@@ -165,7 +165,9 @@ npm start
 Once server is running, open:
 
 ```
-http://localhost:5000/api/v1/docs
+http://localhost:5000/api/v1/docs   
+
+https://vyomxpress-backend.onrender.com/api/v1/docs
 ```
 
 ---
@@ -200,4 +202,4 @@ GET /health
 
 ## Deployment
 
-Deployed on Railway: `YOUR_DEPLOYMENT_URL_HERE`
+Deployed on Render: https://vyomxpress-backend.onrender.com
