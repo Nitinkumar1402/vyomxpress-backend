@@ -1,7 +1,7 @@
 require("dotenv").config();
 const app = require("./app");
-const { sequelize } = require("./src/models");
-const logger = require("./src/utils/logger");
+const { sequelize } = require("./models");
+const logger = require("./utils/logger");
 const { startDiscordBot } = require("./discord/bot");
 
 const PORT = process.env.PORT || 5000;
