@@ -11,7 +11,7 @@ const options = {
     },
     servers: [
       { url: "http://localhost:5000/api/v1", description: "Local Development" },
-      { url: "https://your-deployment-url.com/api/v1", description: "Production" },
+      { url: "https://vyomxpress-backend.onrender.com/api/v1/docs", description: "Production" },
     ],
     components: {
       securitySchemes: {
